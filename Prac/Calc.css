@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cal{
+    background-color: violet;
+    margin-top: 15%;    
+}
+.button-grid{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%; 
+    grid-template-rows: auto;
+    margin: auto;
+    padding: 5px;
+    gap: 3px;
+   
+}
+.button
+{   background-color: bisque;
+    border-radius: 3px;
+    padding: 3px;
+    border: none;
+}
+.button:hover{
+    background-color:cyan;
+}
+.inp{
+    background-color:blue;
+    margin-top: 3px ;
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    
+}
